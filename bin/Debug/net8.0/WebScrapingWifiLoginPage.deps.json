@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebScrapingWifiLoginPage/1.0.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.23.0",
+          "Selenium.WebDriver.ChromeDriver": "127.0.6533.8800"
+        },
+        "runtime": {
+          "WebScrapingWifiLoginPage.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.23.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/127.0.6533.8800": {}
+    }
+  },
+  "libraries": {
+    "WebScrapingWifiLoginPage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jQxNGGuWeSw/+xeZVv+0TL6pVnKeLsBYlxvADY7iGyq1yjgtUFNxGK01t0Op6+FMVdFLcMysL4Z0VdTvzFn0eA==",
+      "path": "selenium.webdriver/4.23.0",
+      "hashPath": "selenium.webdriver.4.23.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/127.0.6533.8800": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-owJRhq3twE/5Z7PztbctWR6CJCZ31zaTUCztyWPDFM5irS9mcr2O3odXk6WBaN3ts26Vwll56joDMJo+foEzIg==",
+      "path": "selenium.webdriver.chromedriver/127.0.6533.8800",
+      "hashPath": "selenium.webdriver.chromedriver.127.0.6533.8800.nupkg.sha512"
+    }
+  }
+}
